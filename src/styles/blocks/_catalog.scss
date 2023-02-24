@@ -15,20 +15,14 @@
   }
 
   @media (min-width: 488px) {
-    & {
-      grid-template-columns: $card-width $card-width;
-    }
+    grid-template-columns: $card-width $card-width;
   }
   
   @media (min-width: 768px) {
-    & {
-      grid-template-columns: repeat(3, $card-width);
-    }
+    grid-template-columns: repeat(3, $card-width);
   }
   
   @media (min-width: 1024px) {
-    & {
-      grid-template-columns: repeat(4, $card-width);
-    }
+    grid-template-columns: repeat(4, $card-width);
   }
 }
